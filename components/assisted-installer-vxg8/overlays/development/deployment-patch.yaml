@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: assisted-installer-vxg8
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/assisted-installer/assisted-installer-vxg8@sha256:06243e40ffaac733008f8f3567acd001811d716f4d8fdfaccea63f78a02e3c96
+        name: my-go
+        resources: {}
+status: {}
