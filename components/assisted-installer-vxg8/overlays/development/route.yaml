@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: assisted-installer-vxg8
     app.kubernetes.io/part-of: assisted-installer
-  name: assisted-installer-vxg8gzfd
+  name: assisted-installer-vxg80h0f
 spec:
   path: /
   port:
