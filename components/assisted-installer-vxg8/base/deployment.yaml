@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: assisted-installer-vxg8
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/assisted-installer/assisted-installer-vxg8@sha256:06243e40ffaac733008f8f3567acd001811d716f4d8fdfaccea63f78a02e3c96
+      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/assisted-installer/assisted-installer-vxg8@sha256:1e7b43ca3fc144bc494ba7ee679644ceb803b1c573c230f2d553181fc946907a
         name: my-go
         ports:
         - containerPort: 8081
